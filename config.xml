@@ -14,9 +14,7 @@ small-t testing remote connection to php scripts and mysql
 <access origin="http://192.168.1.83*" />
 
 
-<feature name="Camera">
- <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
-</feature>
+<gap:plugin name="org.apache.cordova.core.camera" />
 
 <author href="https://www.facebook.com/christopher.murrell.397" email="c.murrell93@live.co.uk">
 Chris Murrell
